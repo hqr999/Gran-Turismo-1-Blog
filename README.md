@@ -8,3 +8,5 @@ Status
 -Instalation Manual:Done
 
 -Honda Page:Done
+
+-Chevrolet Page:Done
