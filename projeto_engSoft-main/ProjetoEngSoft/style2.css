@@ -47,11 +47,11 @@ body{
       
 }
 
-.header_ul{
+/*.header_ul{
    list-style-type:none;
    display:list-item;
    font-size: medium;
-}
+}*/
 
 h1,h2,h3{
     font-family: "Fugaz One", sans-serif;
@@ -126,4 +126,23 @@ p{
      margin-right: auto;
      margin-left: auto;
      text-align: center;
+}
+.Marcas_Tabelas ul{
+    list-style-type:circle;
+    padding-left: 25px;
+    font-size: 1.5rem;
+}
+
+.license_ul li{
+    font-size: 1.5rem;
+    padding-left: 25px;
+    margin-top: 1rem;
+    list-style-type: none;
+    color: rgba(184, 18, 18, 0.463);
+}
+
+.license_ul p{
+    margin-top: 0.5rem;
+    padding-left: 20px;
+    color: rgb(29, 191, 67);
 }
