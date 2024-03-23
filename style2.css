@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Fugaz+One&family=Madimi+One&display=swap');
+
+/* || RESET */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(40, 59, 201);
+    font-family: "Fugaz One", sans-serif;
+}
+
+body{
+    background-color: white;
+    color:#948b8b;
+    min-height: 100vh;
+    max-width: 1400px;
+    margin:0 auto;
+    border-left: black;
+    border-right: black;
+}
+
+.botao {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5rem;
+    background-color: #e22222da;
+    color: #ffffff;
+    letter-spacing: .5rem;
+    border: none;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+.botao a{
+    font-size: 2rem;
+}
+
+.header__h1{
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 3rem;
+      
+}
+
+footer{
+    text-align: center;
+}
+
+h1,h2,h3{
+    font-size: 2.5em;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 1rem;
+    padding-left: 10px;
+}
+
+.tutorial{
+    text-align:left;
+    list-style:decimal;
+    list-style-position:inside;
+    line-height: 4vh;
+    padding-left: 10px;
+}
+
+.tutorial h1,h2,h3{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header_ol li{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.dropdown button {
+    color: black;
+    cursor: pointer;
+}
+
+
+.dropdown a{
+    display:block;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+
+}
+
+
+.dropdown .content{
+    display:none;
+    z-index: 999;
+    position: absolute;
+    letter-spacing: 1px;
+    background-color:#faf3f1;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+    font-size: 2rem;
+
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: #f7f7f7;
+}
+
+.dropdown a:hover{
+    background-color: #c59898;
+}
+
+.Marcas_Tabelas table,h3{
+     margin-right: auto;
+     margin-left: auto;
+     text-align: center;
+}
+.Marcas_Tabelas ul{
+    list-style-type:circle;
+    padding-left: 25px;
+    font-size: 1.5rem;
+}
+
+.license_ul li{
+    font-size: 1.5rem;
+    padding-left: 25px;
+    margin-top: 1rem;
+    list-style-type: none;
+    color: rgba(184, 18, 18, 0.463);
+}
+
+.license_ul p{
+    margin-top: 0.5rem;
+    padding-left: 20px;
+    color: rgb(29, 191, 67);
+}
