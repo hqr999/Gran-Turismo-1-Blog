@@ -12,3 +12,5 @@ Status
 -Chevrolet Page:Done
 
 -License B Page:Done
+
+-Copyright page:Done
